@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.v_h_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
