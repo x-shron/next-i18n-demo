@@ -1,5 +1,28 @@
 .navbarHead{
-    color: red;
+    color: #FFF;
     height: 40px;
+    width: 100%;
+    
     background-color: #BD0303;
+    .content{
+        display: flex;
+        flex-direction: row;
+        width: 62.5%;
+        & .space4{
+            display: inline-block;
+            width: 8px;
+        }
+        .right {
+            width: 30%;
+            text-align: right;
+            display: flex;justify-content: flex-end;
+            align-items: center;
+        }
+        .left{
+            width: 70%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
 }
